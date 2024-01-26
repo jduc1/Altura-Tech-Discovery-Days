@@ -1,5 +1,5 @@
 Altura Tech - Discovery Days 2024...
-Your project's description...
+
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.hlx.page/
