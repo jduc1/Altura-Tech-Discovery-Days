@@ -6,7 +6,7 @@
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "url": "https://main--altura-tech-discovery-days--jduc1.hlx.page/",
+      "url": "https://main--altura-tech-discovery-days--jduc1.hlx/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
     },
     {
