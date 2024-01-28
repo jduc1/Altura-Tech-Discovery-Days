@@ -1,1 +1,5 @@
-
+{
+  "project": "My Project",
+  "host": "https://main--altura-tech-discovery-days--jduc1.hlx.page/",
+  "plugins": []
+}
