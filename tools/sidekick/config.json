@@ -1,19 +1,30 @@
 {
   "project": "My Project",
   "host": "https://main--altura-tech-discovery-days--jduc1.hlx.page/",
-  "plugins": [
+ "plugins": [
+    {
+      "id": "library",
+      "title": "Library",
+      "environments": [ "edit" ],
+      "url": "https://main--altura-tech-discovery-days--jduc1.hlx.page/",
+      "includePaths": [ "**.docx**" ]
+    },
     {
       "id": "asset-library",
       "title": "My Assets",
-      "environments": [
-        "edit"
-      ],
-      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+      "environments": [ "edit" ],
+      "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
       "isPalette": true,
-      "includePaths": [
-        "**.docx**"
-      ],
-      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+      "includePaths": [ "**.docx**" ],
+      "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:800px; height: calc(100vh - 60px)"
+    },
+    {
+      "id": "generate-variations",
+      "title": "Generate Variations",
+      "url": "https://experience.adobe.com/aem/generate-variations",
+      "passConfig": true,
+      "environments": [ "preview", "live", "edit" ],
+      "includePaths": ["**.docx**"]
     }
   ]
 }
