@@ -3,7 +3,7 @@ Altura Tech - Discovery Days 2024...
 
 ## Environments
 - Preview: https://main--altura-tech-discovery-days--jduc1.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Live: https://main--altura-tech-discovery-days--jduc1.hlx.live/
 
 ## Installation
 
